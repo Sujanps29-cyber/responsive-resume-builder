@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.top-nav {
+  padding: 15px;
+  background: #020617;
+  border-bottom: 1px solid #1f2933;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+}
+
+.editor, .preview {
+  background: #020617;
+  border: 1px solid #1f2933;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.editor input, .editor textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #1f2933;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.block {
+  margin-top: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}

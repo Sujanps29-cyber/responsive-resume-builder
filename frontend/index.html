@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Resume Builder</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+<header class="top-nav">
+  <div class="logo">CV Resume Builder</div>
+</header>
+
+<main class="container">
+
+  <!-- LEFT: INPUT FORM (UNCHANGED) -->
+  <section class="editor">
+    <h2>Edit Resume</h2>
+
+    <input id="nameInput" placeholder="Full Name" />
+    <input id="roleInput" placeholder="Role" />
+    <input id="emailInput" placeholder="Email" />
+    <input id="phoneInput" placeholder="Phone" />
+    <input id="locationInput" placeholder="Location" />
+
+    <textarea id="skillsInput" placeholder="Skills (comma separated)"></textarea>
+    <textarea id="projectsInput" placeholder="Projects"></textarea>
+    <textarea id="achievementsInput" placeholder="Achievements"></textarea>
+    <textarea id="educationInput" placeholder="Education"></textarea>
+
+    <button id="saveBtn">Save Resume</button>
+  </section>
+
+  <!-- RIGHT: REACT WILL RENDER HERE -->
+  <section class="preview">
+    <h2>Live Preview (React)</h2>
+
+    <!-- 🔥 REACT ROOT -->
+    <div id="react-root"></div>
+  </section>
+
+</main>
+
+<!-- ================= REACT (CDN) ================= -->
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- React components -->
+<script src="ReactDashBoard.js"></script>
+<script src="ReactLoginPage.js"></script>
+
+<!-- Existing JS -->
+<script src="script3.js"></script>
+
+</body>
+</html>
